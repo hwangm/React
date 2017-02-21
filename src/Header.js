@@ -8,7 +8,8 @@ export default class Header extends Component {
       color: 'white',
       height: 'auto',
       padding: 20,
-      marginBottom: 5
+      marginBottom: 5,
+      marginTop: 5
     };
     return (
         <Paper zDepth={1} style={style}>
