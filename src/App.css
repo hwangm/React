@@ -1,3 +1,7 @@
+body{
+  background-color: #222;
+}
+
 .App {
   text-align: center;
 }
@@ -9,10 +13,6 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
-}
-
 .Navbar-title{
   padding-left: 15px;
   float:left;
@@ -21,4 +21,30 @@
 .Navbar-navbutton{
   float: right;
   padding-right: 15px;
+}
+
+.Body-container{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #222;
+  color: white;
+}
+
+.Body-container a{
+  color: white;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ContentBox{
+  flex: 1;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
