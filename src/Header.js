@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Paper from 'material-ui/Paper';
+import AppBar from 'material-ui/AppBar';
 
 export default class Header extends Component {
   render() {
@@ -7,12 +7,11 @@ export default class Header extends Component {
       backgroundColor: 'transparent',
       color: 'white',
       height: 'auto',
+      textAlign: 'left',
       padding: 20
     };
     return (
-        <Paper zDepth={1} style={style}>
-            <h2>Welcome to Matthew Hwang's First React App</h2>
-        </Paper>
+        <AppBar title="Welcome to my portfolio" style={style} />
     );
   }
 }
