@@ -1,5 +1,12 @@
 body{
-  background-color: #222;
+  background-image: url("./images/stormtrooper.jpg");
+  height: 2000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .App {
@@ -7,7 +14,7 @@ body{
 }
 
 .App-header {
-  background-color: #222;
+  background-color: transparent;
   height: auto;
   padding: 20px;
   color: white;
@@ -25,9 +32,7 @@ body{
 
 .Body-container{
   display: flex;
-  flex-flow: row wrap;
-  background-color: #222;
-  color: white;
+  flex-flow: column nowrap;
 }
 
 .Body-container a{
@@ -47,4 +52,10 @@ body{
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.ContentFill{
+  height: 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }

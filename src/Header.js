@@ -4,7 +4,7 @@ import Paper from 'material-ui/Paper';
 export default class Header extends Component {
   render() {
     const style = {
-      backgroundColor: '#222',
+      backgroundColor: 'transparent',
       color: 'white',
       height: 'auto',
       padding: 20
